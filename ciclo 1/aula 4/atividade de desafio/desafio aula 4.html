@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DESAFIO - AULA 4 </title>
+</head>
+
+<style>   
+
+
+	body{
+		margin: 0;
+		background-color: cyan;
+	}
+	
+	header, footer{
+		width: 100%;
+		height: 40px;
+		border-bottom: 1px solid #000;
+		background-color: tomato;
+		position: fixed;
+
+	}
+
+	header{
+		top: 0;
+	}
+
+	footer{
+		border-bottom: 0;
+		height: 60px;
+		border-top: 1px solid #000;
+		bottom: 0;
+
+	}
+
+	main{
+		width: 100%;
+		height: auto;
+		margin-top: 50px;
+
+	}
+
+	#content{
+		width: 80%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-areas: "a1"
+							 "a2"
+
+		}
+
+
+	#a1{
+		grid-area: a1;
+		display: flex;
+		flex-direction: column;
+		flex-flow: column;
+	}
+
+	#a1{
+		display: grid;
+		grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10";
+	}
+
+
+	#a2{
+		grid-area: a2;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	p{
+		display: flex;
+		flex-direction: column;
+		justify-content: baseline;
+		color: red;
+	}
+
+	#quadrado{
+			width: 30px;
+			height: 30px;
+			background-color: blue;
+		}	
+
+
+	
+	@media screen {
+
+		#a1{
+			display: grid;
+			grid-template-areas: "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10";
+
+		}
+
+
+		#quadrado{
+			width: 30px;
+			height: 30px;
+			background-color: blue;
+			display: flex;
+			align-self: flex-end;
+		}
+	
+	}
+	
+
+	@media screen and (max-width: 700px){
+
+		#a1{
+			display: grid;
+			grid-template-areas: "c1"
+			 					 "c2"
+			                     "c3"
+			                     "c4"
+			                     "c5"
+			                     "c6"
+			                     "c7"
+			                     "c8"
+			                     "c9"
+			                     "c10";
+
+		}
+		
+		#quadrado{
+			width: 0px;
+			height: 0px;
+			background-color: yellow;
+			display: flex;
+			align-self: flex-end;
+		}
+	}
+	
+
+
+</style>
+
+
+<body>
+
+	<header>
+		
+
+	</header>
+	<main>
+		<div id="content">
+			<div id="a1"> 
+				<p id="c1">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c2">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c3">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c5">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c6">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c7">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c8">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c9">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+				<p id="c10">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam amet perferendis at neque recusandae quo, excepturi reprehenderit laudantium ipsam hic qui, alias unde, facilis. Amet iste natus officiis, dolor.
+				</p>
+			
+			</div>
+			
+			<div id="a2">
+				<div id="quadrado"></div>
+			</div>			
+		
+		</div>
+	</main>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+
+	<footer>
+		
+
+	</footer>
+	
+</body>
+</html>
