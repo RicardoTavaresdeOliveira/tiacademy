@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+   
+body{
+	background-color: #E0E0E0;
+	margin: auto;
+}
+
+
+header{
+	background-image: linear-gradient(90deg, #1B5E20, #66BB6A, #424242);
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	top: 0;
+	display: grid;
+	grid-template-areas: "a1 a2 a2";
+	font-family: 'Brush Script MT', cursive;
+}
+
+
+main{
+	display: flex;
+	background-color: ;
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	display: grid;
+	grid-template-areas: "a3 a3"
+	                     "a4 a4"
+	                     "a5 a5"
+	                     "a6 a7"
+	                     "a8 a8"
+
+}
+
+
+#a1{
+	background-color: ;
+	grid-area: a1;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+#imagem{
+	
+}
+
+#a2{
+	background-color: ;
+	grid-area: a2;
+}
+
+#grupo{
+	color: black;
+	font-size: 30px;
+
+}
+
+#interacao{
+	color: white;
+	font-size: 50px;
+}
+
+#a3{
+	background-image: linear-gradient(white, black, black, black, white);
+	grid-area: a3;
+	font-size: 12px;
+	padding: 4px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.cor:hover{
+	color: white;
+}
+
+#a4{
+	background-color: white;
+	grid-area: a4;
+	font-size: 11px;
+	padding: 4px;
+}
+
+#a5{
+	background-color: white;
+	grid-area: a5;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 3px;
+	text-align: justify;
+}
+
+#a6{
+	background-color: white;
+	grid-area: a6;
+}
+
+#a7{
+	background-color: white;
+	grid-area: a7;
+	padding-top: 40px;
+
+}
+
+#a8{
+	background-image: linear-gradient(90deg, #1B5E20, #66BB6A, #424242);	grid-area: a8;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 10px;
+	padding: 5px;
+}
+
+ul{
+	list-style: none;
+	font-family: Times New Roman;
+	padding: 3px;
+}
+
+h2{
+	font-family: arial black;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	color: #546E7A;
+}
+
+li{
+	padding-left: 7px;
+
+}
+
+li:hover{
+	color: red;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+
+footer{
+	
+	
+	
+}
+
+@media screen and (max-width: 700px){
+
+		#a3{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		background-image: linear-gradient(white, black, black, black, black, black, white);
+
+		}
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
